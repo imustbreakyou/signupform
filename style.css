@@ -1,0 +1,33 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+  
+
+}
+
+.left-side {
+    
+    background: whitesmoke;
+    flex: 2;
+    height: 100vh;x
+    
+
+
+}
+
+.right-side {
+    background: skyblue;
+    flex: 1;
+    min-width: 40%;
+    height: 100vh;
+
+}
