@@ -19,10 +19,10 @@ confirmPassword.addEventListener("blur", function(){
 function checkPasswordMatch () {
     if (password.value === confirmPassword.value) {
         passwordMatch = true;
-        fail.style.color = "red";
+        fail.style.color = "green";
         fail.textContent = "passwords match!"
-        password.style = "border: green; background: white";
-        confirmPassword.style = "border: green; background: white";
+        password.style.cssText = "border: green; background: white";
+        confirmPassword.style.cssText = "border: green; background: white";
 
         
         console.log("passwords match!")
